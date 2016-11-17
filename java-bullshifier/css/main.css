@@ -233,7 +233,7 @@ body {
     width: 990px;
     padding: 80px 80px 40px;
     background-color: transparent;
-    background-image: url('/img/console.png');
+    background-image: url('../img/console.png');
     background-size: cover;
     background-position: 0 0;
   }
