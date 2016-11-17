@@ -18,6 +18,14 @@ body {
   font-size: 70px;
 }
 
+#hero h2 {
+  font-size: 18px;
+}
+
+#hero h2 a {
+  color: white;
+}
+
 #hero h3 {
   margin: 40px 0px 40px;
   font-weight: 600;
@@ -200,6 +208,10 @@ body {
 @media screen and (min-width: 992px) {
   #hero h1 {
     font-size: 100px;
+  }
+
+  #hero h2 {
+    font-size: 22px;
   }
 
   #hero h3 {
