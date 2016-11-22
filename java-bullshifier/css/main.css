@@ -37,7 +37,7 @@ body {
   font-size: 30px;
   font-weight: 600;
   color: #fff;
-  width: 300px;
+  width: 330px;
   height: 75px;
   line-height: 75px;
   display: inline-block;
@@ -186,6 +186,7 @@ body {
 
   #hero a.button, #details a.button {
     width: 260px;
+    font-size: 25px;
   }
 }
 
@@ -222,9 +223,16 @@ body {
 
   #hero a.button, #details a.button {
     font-size: 35px;
-    width: 335px;
     height: 75px;
     line-height: 75px;
+  }
+
+  #hero a.button {
+    width: 380px;
+  }
+
+  #details a.button {
+    width: 335px;
   }
 
   #hero a.sample-link {
