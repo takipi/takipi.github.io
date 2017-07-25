@@ -1,7 +1,7 @@
 $(function() {
   var animateConsole = function() {
     $('.typed-1').typed({
-      strings: ["./gradlew run <nobr>-Poutput-directory=small</nobr> <nobr>-Poutput-classes=50</nobr> <nobr>-Psubprojects=1</nobr>"],
+      strings: ["./gradlew run <nobr>-Poutput-directory=small</nobr> <nobr>-Pclasses=50</nobr> <nobr>-Psubprojects=1</nobr>"],
       showCursor: false,
       onStringTyped: function() {
         var delay = 0;
